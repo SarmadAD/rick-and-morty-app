@@ -1,7 +1,7 @@
-export function Card(){
+export function Card({card}){
     return (
         <div className="card">
-            <p>Hello</p>
+            <p>{card.name}</p>
         </div>
     );
 }
